@@ -16,10 +16,12 @@ export default function Header({ background, weather, icon}) {
             <Ionicons
                 name={icon.name}
                 color={icon.color}
-                size={150}
+                size={130}
             />
 
             <Text style={styles.temp}>{weather.results.temp}°</Text>
+            <Text style={styles.description}>{weather.results.description}</Text>
+
 
         </LinearGradient>
     )
@@ -48,7 +50,12 @@ const styles = StyleSheet.create({
 
     temp: {
         color: '#fff',
-        fontSize: 80,
+        fontSize: 60,
         fontWeight: 'bold'
+    },
+
+    description: {
+        color: '#fff',
+        fontSize: 15,
     }
 });

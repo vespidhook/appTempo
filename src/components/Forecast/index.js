@@ -10,6 +10,7 @@ export default function Forecast({ data }) {
     return (
         <View style={styles.container}>
             <Text style={styles.date}>{data.date}</Text>
+            <Text style={styles.date}>{data.weekday}</Text>
             <Ionicons name={icon.name} color={icon.color} size={25} />
 
             <View style={styles.temp}>
