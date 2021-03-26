@@ -58,7 +58,7 @@ export default function Home() {
   if(loading){
     return(
       <View style={styles.container}>
-        <Text style={{ fontSize: 17, fontStyle: 'italic'}}>Carregando dados...</Text>
+        <Text style={{ color: '#1ed6ff', fontSize: 17, fontStyle: 'italic'}}>Carregando dados...</Text>
       </View>
     )
   }
@@ -98,5 +98,6 @@ const styles = StyleSheet.create({
     list: {
         marginTop: 10,
         marginLeft: 10,
+        marginRight: 10,
     }
 })

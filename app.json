@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "tempo",
-    "slug": "tempo",
+    "name": "App do Tempo",
+    "slug": "appdotempo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#e8f0ff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,11 +20,14 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.bas.appdotempo",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#e8f0ff"
       }
     },
+    
     "web": {
       "favicon": "./assets/favicon.png"
     }

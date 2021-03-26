@@ -36,7 +36,8 @@ const styles = StyleSheet.create({
 
     date: {
         color: '#fff',
-        fontSize: 17
+        fontSize: 17,
+        marginTop: 20
     },
 
     city: {
