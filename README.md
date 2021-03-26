@@ -1,10 +1,10 @@
-# appTempo
+# App Tempo
 Aplicativo desenvolvido em React Native(expo) da previsão do tempo
 
 <p align="center">
-<img alt="Gerador" title="#Gerador" src="https://bas.inf.br/diversos/rn-layout-2.png" width="250px" /></p>
+<img alt="Gerador" title="#Gerador" src="https://bas.inf.br/diversos/rn-layout-2.png" width="700px" /></p>
 
-# Gerador de Senha
+# App Tempo
 
 Aplicativo desenvolvido em React Native(expo) da previsão do tempo
 
