@@ -93,11 +93,11 @@ export default function Search() {
                 <TextInput 
                     value={input}
                     onChangeText={(valor) => setInput(valor)}
-                    placeholder="Ex: Rio de Janeiro, RJ"
+                    placeholder="Ex: Rio de Janeiro, RJ (DESABILITADO)"
                     style={styles.input}
                 />
 
-                <TouchableOpacity style={styles.icon} onPress={handleSearch}>
+                <TouchableOpacity style={styles.icon} onPress={() => {}}>
                     <Feather 
                         name="search"
                         size={22}
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
 
     icon: {
         width: '15%',
-        backgroundColor: '#1ed6ff',
+        backgroundColor: '#d3d3d3',
         alignItems: 'center',
         justifyContent: 'center',
         height: 50,

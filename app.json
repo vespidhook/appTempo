@@ -21,7 +21,7 @@
     },
     "android": {
       "package": "com.bas.appdotempo",
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#e8f0ff"
